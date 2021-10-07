@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+
+<body>
+<h1>Cadastro</h1>
+	<form action="/confirmacaoSolicitacao" method="post">
+		Grupo solucionador:
+		<select name="grupo" id="cadastro">
+  			<option value="hardware">Hardware</option>
+  			<option value="software">Software</option>
+  			<option value="suporte">Suporte</option>
+  			<option value="redes">Redes</option>
+		</select>
+		
+		<br>
+		
+		<textarea id="descricao" name="descricao" rows="4" cols="50"></textarea>
+		
+		<br>
+		
+		<input type="submit" name="cadastro" value="Cadastrar Solicitação">
+	</form>
+</body>
+</html>
